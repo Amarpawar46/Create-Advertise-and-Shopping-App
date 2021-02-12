@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mobile_no">Mobile No</string>
+    <string name="city">City</string>
+    <string name="name">Name</string>
+    <string name="get_full_access_today">Get full access today.</string>
+    <string name="join_our_community">Join Our Community</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in_login">Already Signed in? Login</string>
+    <string name="choose_topics_that_intrest">Choose topics that intrest</string>
+    <string name="writing">WRITING</string>
+    <string name="cinema">CINEMA</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="780dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="730dp"
+            android:layout_gravity="fill_horizontal"
+
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <EditText
+                android:id="@+id/etUserfullname"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="75dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="Enter Full Name"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etUsercity"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="Enter City"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/txtMob"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="Enter Mobile no."
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etUserEmail"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="@string/email"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etfullname"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="User Name"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_boder"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:layout_gravity="center_horizontal"
+
+                android:foregroundGravity="center_vertical|center"
+                android:hint="Password"
+                android:inputType="textVisiblePassword|text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+
+                android:background="@drawable/round_bg"
+                android:backgroundTint="@color/purple_500"
+                android:fontFamily="serif"
+                android:text="@string/register"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvUserLogin"
+                android:layout_width="355dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="309dp"
+                android:fontFamily="serif"
+                android:text="Already have an Account ? SignIN"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

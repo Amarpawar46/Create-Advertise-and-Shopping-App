@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "653049550365",
+    "firebase_url": "https://fir-76bd3.firebaseio.com",
+    "project_id": "fir-76bd3",
+    "storage_bucket": "fir-76bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653049550365:android:a19b40c7aa721114f858f4",
+        "android_client_info": {
+          "package_name": "com.example.pragatienterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653049550365-q847btrn6iddj9ccskgvrp1140bh67oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_akhfztDal90zP7IpqBoF3GsEjNwb6gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653049550365-q847btrn6iddj9ccskgvrp1140bh67oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

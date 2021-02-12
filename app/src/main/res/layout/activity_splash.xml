@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splash">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="780dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="333dp"
+            android:layout_height="635dp"
+
+            android:layout_gravity="center_horizontal"
+
+
+            android:layout_marginTop="100dp"
+
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/txtIamcoder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="cursive"
+
+                android:gravity="center"
+                android:text="PRAGATI ENTERPRISE"
+                android:textColor="@color/purple_500"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="279dp"
+                android:layout_height="85dp"
+
+                android:layout_gravity="center_horizontal"
+                android:text="COPYRIGHTS:@ANKUR_TECHNOLOGIES"
+                android:textColor="@color/purple_700"
+                android:textSize="13dp"
+
+                />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

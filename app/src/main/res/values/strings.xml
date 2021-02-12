@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name"> PRAGATI  ENTERPRISE</string>
+
+    <string name="Login">Login</string>
+    <string name="Home">Home</string>
+    <string name="lblTitle">Login Form</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="password">Password</string>
+    <string name="Search">Search </string>
+    <string name="enter_password">Enter Password </string>
+    <string name="WelCome" />
+    <string name="choose_topics_that_intrest">Choose topics that interest</string>
+    <string name="music">MUSIC</string>
+    <string name="cinema">CINEMA</string>
+    <string name="fitnes">FITNES</string>
+    <string name="writing">WRITING</string>
+    <string name="user_name">User Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="city">City</string>
+    <string name="name">Name</string>
+    <string name="get_full_access_today">Get full access today.</string>
+    <string name="join_our_community">Join Our Community</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in_login">Already Signed in? Login</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string-array name="Select">
+        <item>WRITING</item>
+        <item>BOOKS</item>
+        <item>TECHNOLOGY</item>
+        <item>BUSINESS</item>
+        <item>CINEMA</item>
+        <item>ART</item>
+        <item>MUSIC</item>
+        <item>BEAUTY</item>
+        <item>Agriculture</item>
+        <item>FOOD</item>
+        <item>Health</item>
+
+    </string-array>
+</resources>
